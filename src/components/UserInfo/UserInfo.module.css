@@ -1,0 +1,10 @@
+.description {
+    text-align: center;
+    padding: 30px;
+
+    background-color: #fff;
+}
+
+.description > p:not(:last-child) {
+    margin-bottom: 10px;
+}

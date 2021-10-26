@@ -1,8 +1,8 @@
 {
-    "name": "react-app-template",
+    "name": "goit-react-hw-01-components",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://hrendzha.github.io/project-name",
+    "homepage": "https://hrendzha.github.io/goit-react-hw-01-components",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
