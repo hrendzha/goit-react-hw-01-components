@@ -34,3 +34,16 @@ button {
     /* border: none; */
     cursor: pointer;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+}

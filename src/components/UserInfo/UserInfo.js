@@ -5,7 +5,7 @@ import Avatar from '../Avatar/Avatar';
 function UserInfo({ name, tag, location, avatar }) {
     return (
         <div className={s.description}>
-            <Avatar url={avatar} userName={name} />
+            <Avatar url={avatar} userName={name} type="avatarInProfile" />
             <p className="name">
                 <b>{name}</b>
             </p>

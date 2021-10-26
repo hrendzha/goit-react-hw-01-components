@@ -1,0 +1,16 @@
+.status {
+    width: 10px;
+    height: 10px;
+
+    margin-right: 10px;
+
+    border-radius: 50%;
+}
+
+.online {
+    background-color: #4eae50;
+}
+
+.offline {
+    background-color: #ff4f54;
+}
