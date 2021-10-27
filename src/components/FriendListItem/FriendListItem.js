@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Avatar from '../Avatar/Avatar';
 
 function FriendListItem({ avatar, name, isOnline }) {
-    const statusClass = isOnline ? 'online' : 'offline';
+    const statusClass = isOnline ? s.online : s.offline;
 
     return (
         <>
-            <span className={`${s.status} ${s[statusClass]}`}></span>
+            <span className={statusClass}></span>
             <Avatar url={avatar} userName={name} type="avatarInFriendList" />
             <p className="name">{name}</p>
         </>

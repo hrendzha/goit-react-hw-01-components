@@ -8,9 +8,11 @@
 }
 
 .online {
+    composes: status;
     background-color: #4eae50;
 }
 
 .offline {
+    composes: status;
     background-color: #ff4f54;
 }
