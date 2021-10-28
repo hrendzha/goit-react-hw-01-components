@@ -12,16 +12,16 @@ function Statistics({ title, stats }) {
             )}
 
             <ul className="grid">
-                {stats.map(stat => (
+                {stats.map(({ id, label, percentage }) => (
                     <li
                         className={`${s.statsItem} gridItem`}
                         style={{
                             backgroundColor: getRandomColor(),
                         }}
-                        key={stat.id}
+                        key={id}
                     >
-                        <span className="label">{stat.label}</span>
-                        <span className="percentage">{stat.percentage}%</span>
+                        <span className="label">{label}</span>
+                        <span className="percentage">{percentage}%</span>
                     </li>
                 ))}
             </ul>
