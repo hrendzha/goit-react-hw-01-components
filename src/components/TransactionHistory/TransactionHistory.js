@@ -27,14 +27,7 @@ function TransactionHistory({ items }) {
 
 TransactionHistory.propTypes = {
     items: PropTypes.arrayOf(
-        PropTypes.shape({
-            id: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-                .isRequired,
-            type: PropTypes.string.isRequired,
-            amount: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-                .isRequired,
-            currency: PropTypes.string.isRequired,
-        }).isRequired,
+        PropTypes.objectOf(PropTypes.string.isRequired).isRequired,
     ).isRequired,
 };
 

@@ -27,9 +27,7 @@ function UserStats({ stats: { followers, views, likes } }) {
 }
 
 UserStats.propTypes = {
-    stats: PropTypes.objectOf(
-        PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    ).isRequired,
+    stats: PropTypes.objectOf(PropTypes.number.isRequired).isRequired,
 };
 
 export default UserStats;

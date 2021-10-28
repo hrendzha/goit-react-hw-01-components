@@ -35,10 +35,7 @@ Statistics.propTypes = {
         PropTypes.shape({
             id: PropTypes.string.isRequired,
             label: PropTypes.string.isRequired,
-            percentage: PropTypes.oneOfType([
-                PropTypes.string,
-                PropTypes.number,
-            ]).isRequired,
+            percentage: PropTypes.number.isRequired,
         }),
     ).isRequired,
 };
